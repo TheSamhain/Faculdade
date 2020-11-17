@@ -1,0 +1,56 @@
+Decimal: 873334661
+Binário: 110100000011100000011110000101
+Octal: 6403403605
+Hexadecimal: 340E0785
+
+Decimal: 69486912
+Binário: 100001001000100100101000000
+Octal: 411044500
+Hexadecimal: 4244940
+
+Decimal: 63278679
+Binário: 11110001011000111001010111
+Octal: 361307127
+Hexadecimal: 3C58E57
+
+
+Decimal: 4913287
+Binário: 10010101111100010000111
+Octal: 22574207
+Hexadecimal: 4AF887
+
+Decimal: 7915468
+Binário: 11110001100011111001100
+Octal: 36143714
+Hexadecimal: 78C7CC
+
+Decimal: 871245
+Binário: 11010100101101001101
+Octal: 3245515
+Hexadecimal: D4B4D
+
+Decimal: 32658
+Binário: 111111110010010
+Octal: 77622
+Hexadecimal: 7F92
+
+Decimal: 6512
+Binário: 1100101110000
+Octal: 14560
+Hexadecimal: 1970
+
+Decimal: 461
+Binário: 111001101
+Octal: 715
+Hexadecimal: 1CD
+
+Decimal: 85
+Binário: 1010101
+Octal: 125
+Hexadecimal: 55
+
+
+Decimal: 4
+Binário: 100
+Octal: 4
+Hexadecimal: 4 

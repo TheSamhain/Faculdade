@@ -1,0 +1,13 @@
+<h1 class="title">Realizar Pedido</h1>
+<form [formGroup]="form" (ngSubmit)="submit()" class="example-form">
+    <section class="example-section" *ngFor="let prod of products">
+        <mat-checkbox formArrayName="products" class="example-margin">{{ prod.name }}</mat-checkbox>
+    </section>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Endereço</mat-label>
+        <input formControlName="address" matInput placeholder="Ex. Rua Otavio ...">
+    </mat-form-field>
+
+    <button mat-raised-button color="primary">Cadastrar</button>
+</form>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Conversor Binário</title>
+        <script src="converter.js"></script>
+        <link href="estilo.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="app">
+            <div>
+                <h1>Decimal</h1>
+                <input type="text" id="textodecimal" oninput="converterDecimal()" onkeyup="somenteNumero(this)">
+            </div>
+            <div>
+                <h1>Binário</h1>
+                <input type="text" id="textobinario" oninput="converterBinario()" onkeyup="somenteBinario(this)">
+            </div>
+        </div>
+    </body>
+</html>

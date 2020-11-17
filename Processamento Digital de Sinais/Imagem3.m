@@ -1,0 +1,2 @@
+colormap('default');
+colormapeditor;
