@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP -->
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <script src="funcoes.js"></script>
+
+</head>
+
+<body onload="paginaExibir()">
+    <div id="pagina">
+        <header>
+            <h1 class="titulo">Small Delivery</h1>
+        </header>
+        <div id="conteudo">
+            <div id="formulario" method="get">
+                <form action="Login.html">
+                    <div class="campos">
+                        <label for="Email">E-mail</label>
+                        <input type="email" class="editavel" required placeholder="Ex: seuemail@email.com">
+                    </div>
+                    <div class="campos">
+                        <label for="NomeCompleto">Nome Completo</label>
+                        <input type="text" id="NomeCompleto" class="editavel" required>
+                    </div>
+
+                    <div class="campos">
+                        <label for="Senha">Senha</label>
+                        <input type="password" id="Senha" class="editavel" required>
+                    </div>
+
+                    <div class="campos">
+                        <label for="CPF">CPF</label>
+                        <input type="text" id="CPF" class="editavel" maxlength="11" onblur="ValidarCPF()" required
+                            placeholder="Ex: 000.000.000-00">
+                    </div>
+                    <div class="erro" id="erroCPF">CPF inválido</div>
+
+                    <div class="campos">
+                        <label for="CEP">CEP</label>
+                        <input id="CEP" class="editavel" required placeholder="Ex: 12345-000" type="text" maxlength="8"
+                            onblur="ValidarCEP()">
+                    </div>
+                    <div class="erro" id="erroCEP">CEP inválido</div>
+
+                    <div class="campos">
+                        <label for="UF">UF</label>
+                        <input id="UF" class="editavel" required maxlength="2" type="text">
+                    </div>
+
+                    <div class="campos">
+                        <label for="Cidade">Cidade</label>
+                        <input id="Cidade" class="editavel" required type="text">
+                    </div>
+
+                    <div class="campos">
+                        <label for="Bairro">Bairro</label>
+                        <input id="Bairro" class="editavel" required type="text">
+                    </div>
+
+                    <div class="campos">
+                        <label for="Rua">Rua</label>
+                        <input id="Rua" class="editavel" required type="text">
+                    </div>
+
+                    <div class="campos">
+                        <label for="Numero">Número</label>
+                        <input id="Numero" class="editavel" required type="text">
+                    </div>
+
+                    <div class="campos centralizar">
+                        <input name="cadastrar" type="submit" value="Cadastrar" class="botao">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="Cadastrado">
+            <h2>Cadastro realizado!</h2>
+        </div>
+    </div>
+</body>
+
+</html

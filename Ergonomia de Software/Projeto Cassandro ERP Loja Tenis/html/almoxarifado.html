@@ -1,0 +1,78 @@
+<div class="row ml-3">
+    <h4>Produto</h4>
+</div>
+
+<div class="row m-1">
+    <div class="col">
+        <label for="codigoInterno">Código Interno</label>
+        <input disabled type="text" class="form-control" id="codigoInterno" placeholder="" value="" required="">
+
+    </div>
+
+    <div class="col">
+        <label for="codigoExterno">Código externo</label>
+        <input type="text" class="form-control" id="codigoExterno" placeholder="" value="" required="">
+        <div class="invalid-feedback">
+            Necessário inserir o código externo
+        </div>
+    </div>
+
+    <div class="col-md-5">
+        <label for="descricao">Descrição</label>
+        <input type="text" class="form-control" id="descricao" placeholder="" value="" required="">
+        <div class="invalid-feedback">
+            Necessário inserir a Descrição
+        </div>
+    </div>
+
+    <div class="col-md">
+        <label for="barras">Cód. Barras</label>
+        <input type="text" class="form-control" id="barras" placeholder="" value="" required="">
+        <div class="invalid-feedback">
+            Necessário inserir o código de barras
+        </div>
+    </div>
+
+    <div class="col">
+        <label for="unidade">Unidade</label>
+        <input type="text" class="form-control" id="unidade" placeholder="" value="" required="">
+        <div class="invalid-feedback">
+            Necessário inserir a unidade
+        </div>
+    </div>
+
+    <div class="col">
+        <label for="estoque">estoque</label>
+        <input type="text" class="form-control" id="estoque" placeholder="" value="" required="">
+        <div class="invalid-feedback">
+            Necessário inserir a quantidade em estoque
+        </div>
+    </div>
+</div>
+
+<div class="row ml-3">
+    <button class=" mr-3 btn btn-primary btn-lg" onclick="salvarProduto();" type="submit">Salvar</button>
+    <button class=" mr-3 btn btn-outline-secondary btn-lg" onclick="limparCamposProdutos();" type="submit">Limpar</button>
+    <button class=" mr-3 btn btn-danger btn-lg" onclick="deletarProduto();" type="submit">Deletar</button>
+</div>
+
+<hr class="mb-4">
+
+
+<table class="table table-striped" id="tbProdutos">
+    <thead>
+        <tr>
+            <th scope="col">Código Interno</th>
+            <th scope="col">Código Externo</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Cód. Barras</th>
+            <th scope="col">Unidade</th>
+            <th scope="col">Estoque</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+
+        </tr>
+    </tbody>
+</table>

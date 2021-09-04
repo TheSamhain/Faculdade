@@ -1,0 +1,30 @@
+<div>
+    <table border="1px">
+        <tr>
+            <td id="logo"><img id="logoIcon" src="../source/sneakers.svg"></td>
+            <td>
+                Empresa: <span id="nomeEmpresa">Nome da Empresa</span><br>
+                CNPJ: <span id="cnpjEmpresa">00.000.000/0000-00</span><br>
+                Filial: <span id="filialEmpresa">Matriz</span><br>
+            </td>
+        </tr>
+        <tr>
+            <td id="menu">
+                <div class="dropdown">
+                    <button class="btn text-dark btn-link dropdown-toggle" type="button" id="dropdownMenu"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                        <button class="dropdown-item" type="button" onclick="principal();">Principal</button>
+                        <button class="dropdown-item btnAlmoxarifado" type="button" onclick="almoxarifado();">Almoxarifado</button>
+                        <button class="dropdown-item btnCompras" type="button" onclick="compras();">Compras</button>
+                        <button class="dropdown-item btnFinanceiro" type="button" onclick="financeiro();">Financeiro</button>
+                        <button class="dropdown-item" type="button" onclick="sair();">Sair</button>
+                    </div>
+                </div>
+            </td>
+            <td id="aba">Principal</td>
+        </tr>
+    </table>
+</div>

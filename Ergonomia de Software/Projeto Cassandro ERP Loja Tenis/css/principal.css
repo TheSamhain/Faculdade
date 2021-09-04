@@ -1,0 +1,17 @@
+img {
+    height: 100px;
+}
+
+table#conteudo{
+    text-align: center;
+    margin-top: 15%;
+}
+
+td {
+    padding: 15px;
+    -border: black solid 1px;
+}
+
+.imgBtn{
+    width: 40px;
+}
