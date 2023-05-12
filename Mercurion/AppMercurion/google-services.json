@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "705230057561",
+    "firebase_url": "https://mercurion-2685d.firebaseio.com",
+    "project_id": "mercurion-2685d",
+    "storage_bucket": "mercurion-2685d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705230057561:android:f6e8371150e7d44ed00148",
+        "android_client_info": {
+          "package_name": "com.mercurion.a2685d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705230057561-el1b4fbjdedaqen9b2qqij1fgvaov3vm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mercurion.a2685d",
+            "certificate_hash": "20532e278bce444293402c060f575f8805fceb06"
+          }
+        },
+        {
+          "client_id": "705230057561-bdus5ju3aj8sm324nssve2ji3bk7epbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwoMqr6EbUJDxBX1DcOwLdTmwIjZ4khPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705230057561-bdus5ju3aj8sm324nssve2ji3bk7epbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

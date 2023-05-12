@@ -1,0 +1,20 @@
+- [x] Desenvovler exibição dos ônibus em tela
+
+## Pontos:
+
+- [x] Criar cadastro de pontos de ônibus
+- [x] Exibir pontos de ônibus no app Mercurion
+- [x] Criar pesquisa de local
+- [x] Exibir marcador na tela do local desejado
+- [x] Botões de selecionar se o local desejado é o correto ou não
+- [x] Permitir escolher um mapa mais limpo
+- [-] Loggin com facebook - Desprezado
+- [ ] Criar uma tela com a lista de pontos ordenados pelo mais próximo
+- [ ] Possibilidade de alteração o local do marcador arrastando-o
+
+- [ ] Criar icone do app
+
+## Erros:
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+- [ ] Input de destino fecha o teclado, mas mantém o foco se for pressionado o botão voltar
+- [ ] Ao clicar no botão de pesquisa no teclado virtual não procura o destino

@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Mercurion",
+    "slug": "Mercurion",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mercurion.a2685d",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBtC4jDwddMKOZJQWhmfLKgJiGVE8Ee7Hg"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FF6D00"
+      },
+      "package": "com.mercurion.a2685d",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAwkyJh4g2vI9baODX46j7lXAVi27YWJ40"
+        }
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "INTERNET"
+      ]
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#FF6D00"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

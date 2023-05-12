@@ -1,0 +1,85 @@
+test/
+.settings/
+
+bin/
+build/
+nbproject/
+dist/
+.metadata/
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+node_modules/
+package-lock.json
+.expo
+.expo-shared
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+.vscode
+Build/
+Logs/
+obj/
+Packages/
+ProjectSettings/
+Library/
+e2e/
+
+Programacao II/Projetoex/lib/*
+Programacao II/Trabalhos Marcio/Operacoes/lib/*
+Programacao II/Trabalhos Marcio/Rh/lib/*
+Programacao II/Trabalhos Marcio/Senha/lib/*
+Multimedia e realidade virtual/Unity/Trabalho/Assets/Imports/*
+Multimedia e realidade virtual/Unity/Trabalho/Assets/Scenes/*
+TCC2/TCC 2/
+
+*.rtf
+*.doc
+*.zip
+*.rar
+*.docx
+
